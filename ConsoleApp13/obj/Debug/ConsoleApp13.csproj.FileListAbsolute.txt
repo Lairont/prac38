@@ -1,0 +1,7 @@
+D:\215\БД\ConsoleApp13\bin\Debug\ConsoleApp13.exe.config
+D:\215\БД\ConsoleApp13\bin\Debug\ConsoleApp13.exe
+D:\215\БД\ConsoleApp13\bin\Debug\ConsoleApp13.pdb
+D:\215\БД\ConsoleApp13\obj\Debug\ConsoleApp13.csproj.AssemblyReference.cache
+D:\215\БД\ConsoleApp13\obj\Debug\ConsoleApp13.csproj.CoreCompileInputs.cache
+D:\215\БД\ConsoleApp13\obj\Debug\ConsoleApp13.exe
+D:\215\БД\ConsoleApp13\obj\Debug\ConsoleApp13.pdb
