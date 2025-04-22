@@ -10,9 +10,9 @@ namespace ConsoleApp22
     {
         static void Main(string[] args)
         {
-            List<Avto> cars = new List<Avto>();
+            List<Avto> avto = new List<Avto>();
 
-            cars.Add(new BMW("Черный", "M5", 250, 600, 12.9));
+            avto.Add(new BMW("Черный", "M5", 250, 600, 12.9));
 
             while (true)
             {
@@ -32,7 +32,7 @@ namespace ConsoleApp22
                         int mazSpeed = int.Parse(Console.ReadLine());
                         Console.Write("Дополнительное: ");
                         string mazDop = Console.ReadLine();
-                        cars.Add(new Maz(mazModel, mazSpeed, mazDop));
+                        avto.Add(new Maz(mazModel, mazSpeed, mazDop));
                         break;
 
                     case 2:
@@ -42,13 +42,13 @@ namespace ConsoleApp22
                         int vazSpeed = int.Parse(Console.ReadLine());
                         Console.Write("Дополнительное: ");
                         string vazDop = Console.ReadLine();
-                        cars.Add(new Vaz(vazModel, vazSpeed, vazDop));
+                        avto.Add(new Vaz(vazModel, vazSpeed, vazDop));
 
                         break;
 
                     case 3:
                         Console.WriteLine("\nСписок автомобилей:");
-                        foreach (Avto car in cars)
+                        foreach (Avto car in avto)
                         {
                             GetAvto(car);
 
